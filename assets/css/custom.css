@@ -1,0 +1,66 @@
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VzdG9tLmNzcyIsInNvdXJjZXMiOlsiY3VzdG9tLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiJ9 */
+
+/*# sourceMappingURL=custom.css.map */
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY3VzdG9tLmNzcyIsInNvdXJjZXMiOlsiY3VzdG9tLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiJ9 */
+
+/*# sourceMappingURL=custom.css.map */
+
+/* Image picking css */
+.image-upload {
+  position: relative;
+  max-width: 200px;
+  margin: 50px auto;
+}
+.image-upload .image-edit {
+  position: absolute;
+  right: 12px;
+  z-index: 1;
+  top: 10px;
+}
+.image-upload .image-edit input {
+  display: none;
+}
+.image-upload .image-edit input + label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+.image-upload .image-edit input + label:hover {
+  background: #f1f1f1;
+  border-color: #d6d6d6;
+}
+.image-upload .image-edit input + label:before {
+  content: "\f093";
+  font-family: FontAwesome;
+  color: #757575;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.image-upload .image-preview {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border: 6px solid #F8F8F8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.image-upload .image-preview > div {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
